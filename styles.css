@@ -1,0 +1,27 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.article-1 {
+  display: flex;
+  border: solid red;
+  height: 300px;
+  margin: 0 auto;
+  /* column-count: 3; */
+  /* column-gap: 1em; */
+}
+
+.col-1 a {
+  flex: initial;
+  min-width: 100px;
+  width: 200px;
+}
+
+/* .col-1 {
+  display: block;
+}
+.col-2 {
+  display: block;
+} */
